@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		263978EC19C6567C00D87C66 /* AKAQuoteBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 263978EB19C6567C00D87C66 /* AKAQuoteBook.m */; };
+		2663345919C7E8D50008CF5C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2663345819C7E8D50008CF5C /* AudioToolbox.framework */; };
+		2663345C19C7EB3B0008CF5C /* AKARecordPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663345B19C7EB3B0008CF5C /* AKARecordPlayer.m */; };
+		2663345E19C7F6D50008CF5C /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2663345D19C7F6D50008CF5C /* crystal_ball.mp3 */; };
+		2663346319C7F7460008CF5C /* guit1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2663345F19C7F7460008CF5C /* guit1.mp3 */; };
+		2663346419C7F7460008CF5C /* guit2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2663346019C7F7460008CF5C /* guit2.mp3 */; };
+		2663346519C7F7460008CF5C /* guit3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2663346119C7F7460008CF5C /* guit3.mp3 */; };
+		2663346619C7F7460008CF5C /* guit4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2663346219C7F7460008CF5C /* guit4.mp3 */; };
 		26A9272D19C6C53B004B12F7 /* AKAMandalaBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9272C19C6C53B004B12F7 /* AKAMandalaBook.m */; };
 		26A9273C19C6DB72004B12F7 /* UILabel+AutoTextResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9273B19C6DB72004B12F7 /* UILabel+AutoTextResizer.m */; };
 		26D6E0BE19C56DB600A27070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D6E0BD19C56DB600A27070 /* Foundation.framework */; };
@@ -39,6 +46,14 @@
 /* Begin PBXFileReference section */
 		263978EA19C6567C00D87C66 /* AKAQuoteBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAQuoteBook.h; sourceTree = "<group>"; };
 		263978EB19C6567C00D87C66 /* AKAQuoteBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAQuoteBook.m; sourceTree = "<group>"; };
+		2663345819C7E8D50008CF5C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2663345A19C7EB3B0008CF5C /* AKARecordPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKARecordPlayer.h; sourceTree = "<group>"; };
+		2663345B19C7EB3B0008CF5C /* AKARecordPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKARecordPlayer.m; sourceTree = "<group>"; };
+		2663345D19C7F6D50008CF5C /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crystal_ball.mp3; sourceTree = "<group>"; };
+		2663345F19C7F7460008CF5C /* guit1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guit1.mp3; sourceTree = "<group>"; };
+		2663346019C7F7460008CF5C /* guit2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guit2.mp3; sourceTree = "<group>"; };
+		2663346119C7F7460008CF5C /* guit3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guit3.mp3; sourceTree = "<group>"; };
+		2663346219C7F7460008CF5C /* guit4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guit4.mp3; sourceTree = "<group>"; };
 		26A9272B19C6C53B004B12F7 /* AKAMandalaBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAMandalaBook.h; sourceTree = "<group>"; };
 		26A9272C19C6C53B004B12F7 /* AKAMandalaBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAMandalaBook.m; sourceTree = "<group>"; };
 		26A9273A19C6DB72004B12F7 /* UILabel+AutoTextResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoTextResizer.h"; sourceTree = "<group>"; };
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2663345919C7E8D50008CF5C /* AudioToolbox.framework in Frameworks */,
 				26D6E0C019C56DB600A27070 /* CoreGraphics.framework in Frameworks */,
 				26D6E0C219C56DB600A27070 /* UIKit.framework in Frameworks */,
 				26D6E0BE19C56DB600A27070 /* Foundation.framework in Frameworks */,
@@ -110,6 +126,7 @@
 		26D6E0BC19C56DB600A27070 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2663345819C7E8D50008CF5C /* AudioToolbox.framework */,
 				26D6E0BD19C56DB600A27070 /* Foundation.framework */,
 				26D6E0BF19C56DB600A27070 /* CoreGraphics.framework */,
 				26D6E0C119C56DB600A27070 /* UIKit.framework */,
@@ -124,14 +141,21 @@
 				26D6E0CF19C56DB600A27070 /* Main.storyboard */,
 				26D6E0D219C56DB600A27070 /* AKAViewController.h */,
 				26D6E0D319C56DB600A27070 /* AKAViewController.m */,
-				26D6E0D519C56DB600A27070 /* Images.xcassets */,
-				26D6E0C419C56DB600A27070 /* Supporting Files */,
 				263978EA19C6567C00D87C66 /* AKAQuoteBook.h */,
 				263978EB19C6567C00D87C66 /* AKAQuoteBook.m */,
 				26A9272B19C6C53B004B12F7 /* AKAMandalaBook.h */,
 				26A9272C19C6C53B004B12F7 /* AKAMandalaBook.m */,
+				2663345A19C7EB3B0008CF5C /* AKARecordPlayer.h */,
+				2663345B19C7EB3B0008CF5C /* AKARecordPlayer.m */,
 				26A9273A19C6DB72004B12F7 /* UILabel+AutoTextResizer.h */,
 				26A9273B19C6DB72004B12F7 /* UILabel+AutoTextResizer.m */,
+				26D6E0D519C56DB600A27070 /* Images.xcassets */,
+				26D6E0C419C56DB600A27070 /* Supporting Files */,
+				2663345D19C7F6D50008CF5C /* crystal_ball.mp3 */,
+				2663345F19C7F7460008CF5C /* guit1.mp3 */,
+				2663346019C7F7460008CF5C /* guit2.mp3 */,
+				2663346119C7F7460008CF5C /* guit3.mp3 */,
+				2663346219C7F7460008CF5C /* guit4.mp3 */,
 			);
 			path = ZennyThoughts;
 			sourceTree = "<group>";
@@ -244,9 +268,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2663346419C7F7460008CF5C /* guit2.mp3 in Resources */,
 				26D6E0D619C56DB600A27070 /* Images.xcassets in Resources */,
 				26D6E0C819C56DB600A27070 /* InfoPlist.strings in Resources */,
+				2663345E19C7F6D50008CF5C /* crystal_ball.mp3 in Resources */,
+				2663346619C7F7460008CF5C /* guit4.mp3 in Resources */,
+				2663346519C7F7460008CF5C /* guit3.mp3 in Resources */,
 				26D6E0D119C56DB600A27070 /* Main.storyboard in Resources */,
+				2663346319C7F7460008CF5C /* guit1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +298,7 @@
 				26D6E0D419C56DB600A27070 /* AKAViewController.m in Sources */,
 				26A9272D19C6C53B004B12F7 /* AKAMandalaBook.m in Sources */,
 				26A9273C19C6DB72004B12F7 /* UILabel+AutoTextResizer.m in Sources */,
+				2663345C19C7EB3B0008CF5C /* AKARecordPlayer.m in Sources */,
 				26D6E0CA19C56DB600A27070 /* main.m in Sources */,
 				263978EC19C6567C00D87C66 /* AKAQuoteBook.m in Sources */,
 			);

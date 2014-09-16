@@ -9,7 +9,9 @@
 #import "AKAViewController.h"
 #import "AKAQuoteBook.h"
 #import "AKAMandalaBook.h"
+#import "AKARecordPlayer.h"
 #import "UILabel+AutoTextResizer.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface AKAViewController ()
 
@@ -21,6 +23,7 @@
     [super viewDidLoad];
     self.quoteBook = [[AKAQuoteBook alloc] init];
     self.mandalaBook = [[AKAMandalaBook alloc] init];
+    self.recordPlayer = [[AKARecordPlayer alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,6 +63,9 @@
     NSString *randomQuote = [self.quoteLabel autoResizeText:[self.quoteBook quote:(randomQuoteNumber)]
                                                  fitInLabel:self.quoteLabel];
     NSString *correspondingAuthor = [self.quoteBook author:(randomQuoteNumber)];
+    
+    [self.recordPlayer playRandomRecord];
+    
     [self crossfadeToNewString:randomQuote inLabel:self.quoteLabel];
     [self crossfadeToNewString:correspondingAuthor inLabel:self.authorLabel];
     [self crossfadeToRandomMandala:[self.mandalaBook randomMandala]];

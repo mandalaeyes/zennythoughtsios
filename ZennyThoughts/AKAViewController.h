@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 @class AKAQuoteBook;
 @class AKAMandalaBook;
+@class AKARecordPlayer;
 
 @interface AKAViewController : UIViewController
 
@@ -17,6 +18,8 @@
 @property (strong, nonatomic) IBOutlet UIImageView *mandalaImageView;
 @property (strong, nonatomic) AKAQuoteBook *quoteBook;
 @property (strong, nonatomic) AKAMandalaBook *mandalaBook;
+@property (strong, nonatomic) AKARecordPlayer *recordPlayer;
+
 
 - (IBAction)buttonPressed;
 - (void) crossfadeToRandomMandala:(UIImage*)randomMandala;
