@@ -28,11 +28,40 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Mandala Crossfade Method
+- (void) crossfadeToRandomMandala:(UIImage*)randomMandala {
+    
+    UIImage * toImage = randomMandala;
+    [UIView transitionWithView:self.mandalaImageView
+                      duration:1.0f
+                       options:UIViewAnimationOptionTransitionCrossDissolve
+                    animations:^{
+                        self.mandalaImageView.image = toImage;
+                    } completion:nil];
+}
+
+#pragma mark - Text Crossfade Method
+- (void) crossfadeToNewString:(NSString*)randomQuote inLabel:(UILabel*)label {
+    
+    NSString * toString = randomQuote;
+    [UIView transitionWithView:label
+                      duration:1.0f
+                       options:UIViewAnimationOptionTransitionCrossDissolve
+                    animations:^{
+                        label.text = toString;
+                    } completion:nil];
+}
+
+#pragma mark - Update Content
 - (IBAction)buttonPressed {
-    int randomQuoteNumber = [_quoteBook randomQuoteNumber];
-    self.authorLabel.text = [self.quoteBook author:(randomQuoteNumber)];
-    self.mandalaImageView.image = [self.mandalaBook randomMandala];
-    [self.quoteLabel autoResizeText:[self.quoteBook quote:(randomQuoteNumber)]
-                         fitInLabel:self.quoteLabel];
+  
+    int randomQuoteNumber = [self.quoteBook randomQuoteNumber];
+
+    NSString *randomQuote = [self.quoteLabel autoResizeText:[self.quoteBook quote:(randomQuoteNumber)]
+                                                 fitInLabel:self.quoteLabel];
+    NSString *correspondingAuthor = [self.quoteBook author:(randomQuoteNumber)];
+    [self crossfadeToNewString:randomQuote inLabel:self.quoteLabel];
+    [self crossfadeToNewString:correspondingAuthor inLabel:self.authorLabel];
+    [self crossfadeToRandomMandala:[self.mandalaBook randomMandala]];
 }
 @end

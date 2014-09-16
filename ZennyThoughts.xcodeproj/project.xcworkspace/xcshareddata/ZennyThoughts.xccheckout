@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14903F53-5113-4105-9250-7AE07DBD8B73</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZennyThoughts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EB4F7E03-6F3D-4354-84BD-84421A956322</key>
+		<string>https://github.com/mandalaeyes/zennythoughtsios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZennyThoughts.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EB4F7E03-6F3D-4354-84BD-84421A956322</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mandalaeyes/zennythoughtsios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EB4F7E03-6F3D-4354-84BD-84421A956322</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EB4F7E03-6F3D-4354-84BD-84421A956322</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZennyThoughts</string>
+		</dict>
+	</array>
+</dict>
+</plist>

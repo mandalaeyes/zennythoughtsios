@@ -19,5 +19,7 @@
 @property (strong, nonatomic) AKAMandalaBook *mandalaBook;
 
 - (IBAction)buttonPressed;
+- (void) crossfadeToRandomMandala:(UIImage*)randomMandala;
+- (void) crossfadeToNewString:(NSString*)randomQuote inLabel:(UILabel*)label;
 
 @end

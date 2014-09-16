@@ -10,6 +10,6 @@
 
 @interface UILabel (AutoTextResizer)
 
-- (void) autoResizeText:(NSString*)quoteText fitInLabel:(UILabel*)quoteLabel;
+- (NSString*) autoResizeText:(NSString*)quoteText fitInLabel:(UILabel*)quoteLabel;
 
 @end

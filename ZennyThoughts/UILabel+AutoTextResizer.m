@@ -10,7 +10,7 @@
 
 @implementation UILabel (AutoTextResizer)
 
-- (void) autoResizeText:(NSString*)quoteText fitInLabel:(UILabel*)quoteLabel {
+- (NSString*) autoResizeText:(NSString*)quoteText fitInLabel:(UILabel*)quoteLabel {
     int maxDesiredFontSize = 26;
     int minFontSize = 14;
     CGFloat labelWidth = 280;
@@ -51,7 +51,7 @@
     quoteLabel.font = font;
     
     // Put the text into the UILabel outlet variable.
-    quoteLabel.text = quoteText;
+    return quoteText;
 }
 
 @end
